@@ -9,7 +9,7 @@
     position: relative;
     height: 110px;
     width: 110px;
-    background-color: #121212;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,8 +53,8 @@
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background-color: #121212;
-    border: solid 10px #121212;
+    background-color: #000000;
+    background-color: #000000;
     border-radius: 50%;
 }
 
