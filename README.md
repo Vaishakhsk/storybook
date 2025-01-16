@@ -5,7 +5,7 @@ This project demonstrates how to set up Storybook for React with custom componen
 ## Features
 
 - **Custom Calendar Component**: Displays all year-end dates in a single view.
-- - **Custom Loader Component**: Loader for websites with Hues and gradient using CSS
+- **Custom Loader Component**: Loader for websites with Hues and gradient using CSS
 - **Storybook Integration**: Test and visualize the components in an isolated environment.
 - **MUI Integration**: Utilizes Material-UI for styling and responsiveness.
 
