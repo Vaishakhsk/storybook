@@ -26,23 +26,22 @@ export default {
     }
 };
 
-// Helper function to generate sample holidays
 const generateSampleHolidays = (count) => {
     const holidays = [];
     const holidayNames = [
         'New Year\'s Day',
         'Independence Day',
-        'Labor Day',
+        'May Day',
         'Christmas Day',
-        'Thanksgiving',
-        'Memorial Day',
-        'Veterans Day',
-        'Columbus Day'
+        'Holi',
+        'Diwali',
+        'Onam',
+        'NST Day'
     ];
 
     for (let i = 0; i < count; i++) {
         const date = new Date(2024, i, 1); // Spreading holidays across months
-        holidays.push({
+        holidays?.push({
             date: date.toISOString().split('T')[0],
             name: holidayNames[i % holidayNames.length]
         });
@@ -76,15 +75,15 @@ export const CustomHolidays = Template.bind({});
 CustomHolidays.args = {
     holidays: [
         {
-            date: '2024-01-01',
+            date: '2025-01-01',
             name: 'New Year\'s Day'
         },
         {
-            date: '2024-12-25',
+            date: '2025-12-25',
             name: 'Christmas'
         },
         {
-            date: '2024-07-04',
+            date: '2025-09-15',
             name: 'Independence Day'
         }
     ]
